@@ -128,13 +128,22 @@ int main(void) {
     // printf("%d %d\n", a, b);
 
 
-    
+    // display(3, 4, add);
+    // display(3, 4, sub);
 
 
+    // int * p = (int *) malloc(5 * sizeof(int));
+    // realloc(p, 10 * sizeof(int));
+    // free(p);
 
+    /*
+    __DATE__, __TIME__, __FILE__, __LINE__, __STDC__
+    */
 
-
-
+   int choice;
+    printf("Enter your choice add, sub, mul, div: ");
+    scanf("%d", &choice);
+    farr[choice](3, 4);
 
 
 
